@@ -15,16 +15,23 @@ const jsxHeading = (
 //Class Based Component - OLD
 //Functional Component - NEW
 
-const Title = () =>{
-    return(
+
+//React Element
+const title =
+    (
         <h1>Title</h1>
-    )
-}
+    );
+
+
+
+//putting js code and react element inside react component
+const number = 1000;
 
 const HeadingComponent = () =>{
     return (
         <div>
-            <Title/>
+            <h2>{number}</h2>
+            {title}
             <h1>Functional Component</h1>
         </div>
     );
