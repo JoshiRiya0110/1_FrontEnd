@@ -1,0 +1,19 @@
+{
+  "name": "foodorderingsite",
+  "version": "1.0.0",
+  "description": "This is a food ordering app by Riya Joshi",
+  "main": "App.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "react",
+    "foodie",
+    "riya"
+  ],
+  "author": "Riya Joshi",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.12.0"
+  }
+}
