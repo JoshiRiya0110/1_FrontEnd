@@ -1,10 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom"
 
-const parent = React.createElement("div", {id: "parent"}, 
-               React.createElement("div", {id: "child"}, 
-
-               [React.createElement("h1",{}, "I am the heading"), React.createElement("h2",{}, "I am the seond sibling heading")]));
-
+const jsxHeading = <h1 id="heading">Heading using jsx</h1>
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(parent);
+root.render(jsxHeading);
