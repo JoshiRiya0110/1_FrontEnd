@@ -24,9 +24,9 @@ const Body = () => {
     // console.log(val);
 
     if(isLoading){
-        return <h1>Loading...</h1>; //shimmer ui should be here
+        return <h1>Loading..</h1>; //shimmer ui should be here
     }
-    
+
     return (
       <div className="body">
         <div className="filter">
