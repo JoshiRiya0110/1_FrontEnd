@@ -23,6 +23,18 @@
     background-color: rgb(228, 231, 233);
     
 }
+.shimmer-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.shimmer-card{
+    width:200px;
+    margin: 5px;
+    height:400px;
+    padding: 5px;
+    background-color: rgb(228, 231, 233);
+}
 
 .res-card:hover{
     cursor:pointer;

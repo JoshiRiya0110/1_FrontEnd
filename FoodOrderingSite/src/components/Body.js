@@ -1,6 +1,7 @@
 import RestaurantCard from "./RestaurantCard";
 import resObj from "../utils/mockData";
-import {useState, useEffect} from "react"
+import {useState, useEffect} from "react";
+import Shimmer from "./Shimmer";
 
 const Body = () => {
 
@@ -23,8 +24,10 @@ const Body = () => {
     // let val = listOfRestaurants.length;
     // console.log(val);
 
+
+    //conditional rendering
     if(isLoading){
-        return <h1>Loading..</h1>; //shimmer ui should be here
+        return <Shimmer/>; //shimmer ui should be here
     }
 
     return (
