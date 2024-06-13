@@ -1,4 +1,4 @@
-const resObj = [
+let resObj = [
     {
       id: "816059",
       name: "Salad Days",
@@ -74,7 +74,7 @@ const resObj = [
       areaName: "Electronic City",
       costForTwo: "₹500 for two",
       cuisines: ["Salads"],
-      avgRating: 4.2,
+      avgRating: 3.0,
       parentId: "796",
       avgRatingString: "4.2",
       totalRatingsString: "10+",

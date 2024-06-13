@@ -29,8 +29,10 @@
     border: 1px solid black;
 }
 
-.search{
+.filter-btn{
     padding:15px;
+    cursor: pointer;
+    margin: 10px;
 }
 .res-logo{
     width: 100%;
