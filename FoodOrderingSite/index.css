@@ -54,3 +54,18 @@
     display: flex;
     flex-wrap: wrap;
 }
+
+.filter{
+    display: flex;
+}
+
+.search-btn{
+    padding:15px;
+    cursor: pointer;
+    margin: 10px;
+}
+.search-box{
+    padding:15px;
+    cursor: pointer;
+    margin: 10px;
+}

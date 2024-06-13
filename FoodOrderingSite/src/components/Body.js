@@ -30,6 +30,13 @@ const Body = () => {
     return isLoading?<Shimmer/>:(
       <div className="body">
         <div className="filter">
+
+            <div className="search">
+                <input type="text" className="search-box"></input>
+                <button className="search-btn" onClick={()=>{
+                    //filter the restaurant cards and update the UI
+                }}>Search</button>
+            </div>
             <button 
             className="filter-btn" 
             onClick={()=>{
