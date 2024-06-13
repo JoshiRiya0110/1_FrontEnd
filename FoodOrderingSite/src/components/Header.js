@@ -2,7 +2,8 @@ import {useState} from "react";
 
 const Header = () => {
 
-  const [btnName, setBtnName] = useState("Login")
+  const [btnName, setBtnName] = useState("Login");
+  
     return (
       <div className="header">
         <div className="logo-container">
