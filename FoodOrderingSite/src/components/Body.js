@@ -5,9 +5,12 @@ import Shimmer from "./Shimmer";
 
 const Body = () => {
 
+    //powerful state variables
     const [listOfRestaurants, setListOfRestaurants] = useState([]);
     const [isLoading, setIsLoading] = useState(true);
 
+
+    //whenever the render cycle finishes it will quickly call the function that is passed into it 
     useEffect(()=>{
         setTimeout(()=>{
             fetchData();
@@ -16,21 +19,15 @@ const Body = () => {
     }, []);
 
 
+    //Loading actual mock data
     const fetchData = () =>{
         const data = resObj;
         setListOfRestaurants(data);
     }
 
-    // let val = listOfRestaurants.length;
-    // console.log(val);
 
-
-    //conditional rendering
-    if(isLoading){
-        return <Shimmer/>; //shimmer ui should be here
-    }
-
-    return (
+    //conditional rendering -- if isLoading is true then run shimmer ui else run the actual code
+    return isLoading?<Shimmer/>:(
       <div className="body">
         <div className="filter">
             <button 
